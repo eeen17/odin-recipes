@@ -1,0 +1,39 @@
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: cornflowerblue;
+}
+
+h1 {
+	text-align: center;
+}
+
+.recipes_card {
+	display: block;
+    background-color: rgba(255, 255, 255, 0.797);
+	/* color: ; */
+	width: 750px;
+	margin: 2% auto;
+	padding: 18px;
+	border-radius: 25px;
+}
+
+.recipes_card a {
+	color: aliceblue !important;
+	text-decoration: none;
+}
+
+.recipes_card button {
+	display: block;
+	box-sizing: border-box;
+	width: 750px;
+	margin: 0 auto;
+	background-color: transparent;
+	border: 0;
+	font-size: 20px;
+	border-radius: 25px;
+}
+
+.recipes_card button:hover {
+	background-color: rgba(0, 0, 0, 0.025);
+	text-decoration: underline;
+}
